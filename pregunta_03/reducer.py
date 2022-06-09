@@ -22,4 +22,4 @@ if __name__ == '__main__':
     ordered=np.argsort(values)
 
     for i in ordered:
-        sys.stdout.write("{}\t{}\n".format(letters[i],values[i]))
+        sys.stdout.write("{},{}\n".format(letters[i],values[i]))
