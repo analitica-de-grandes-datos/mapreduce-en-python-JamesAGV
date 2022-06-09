@@ -1,6 +1,6 @@
 #
 import os
-import numpy as np
+
 
 result = os.popen("cat data.csv | python3 mapper.py | sort | python3 reducer.py").read()
 
