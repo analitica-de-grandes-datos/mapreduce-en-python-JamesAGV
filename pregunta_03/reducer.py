@@ -2,7 +2,7 @@
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 #
 import sys
-import numpy as np
+
 
 if __name__ == '__main__':
 
@@ -17,9 +17,6 @@ if __name__ == '__main__':
         values.append(val)
         # sys.stdout.write("{}\n".format(lista))
     
-    letters=np.array(letters)
-    values=np.array(values)
-    ordered=np.argsort(values)
-
+    ordered=sorted(enumerate(values), key=lambda x: x[1])
     for i in ordered:
-        sys.stdout.write("{},{}\n".format(letters[i],values[i]))
+        sys.stdout.write("{},{}\n".format(letters[i[0]],values[i[0]]))
