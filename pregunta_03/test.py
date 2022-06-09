@@ -14,7 +14,7 @@ f,5
 b,6""".split(
     "\n"
 )
-
+print(lines)
 
 if len(lines) != len(expected):
     raise Exception("Wrong number of lines")
