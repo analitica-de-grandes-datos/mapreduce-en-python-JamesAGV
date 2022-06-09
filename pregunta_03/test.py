@@ -11,7 +11,8 @@ c,2
 a,3
 e,4
 f,5
-b,6""".split(
+b,6
+""".split(
     "\n"
 )
 print(lines)
