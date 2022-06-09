@@ -8,7 +8,7 @@ if __name__ == "__main__":
     # itera sobre cada linea de codigo recibida
     # a traves del flujo de entrada
     #
-	n=0
+
 
 	for line in sys.stdin:
 
@@ -21,7 +21,6 @@ if __name__ == "__main__":
             #
             # escribe al flujo estandar de salida
             #
-		if n == 1:
-			word=line.split(',')[2]
-			sys.stdout.write("{}\t1\n".format(word))
-		n=1
+
+		word=line.split(',')[2]
+		sys.stdout.write("{}\t1\n".format(word))
