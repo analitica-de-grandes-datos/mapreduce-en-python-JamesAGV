@@ -41,4 +41,4 @@ if __name__ == '__main__':
             curkey = key
             lista.append(val)
 
-    sys.stdout.write("{} {}\n".format(curkey, ','.join(str(i) for i in sorted(lista))))
+    sys.stdout.write("{}  {}\n".format(curkey, ','.join(str(i) for i in sorted(lista))))
