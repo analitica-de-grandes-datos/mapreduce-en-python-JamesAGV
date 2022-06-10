@@ -57,4 +57,4 @@ if __name__ == '__main__':
     for i in range(5):
         ordenada=sorted(enumerate(values_total[i]), key=lambda x: x[1])
         for j in ordenada:
-            sys.stdout.write("{}\t{}\t{}\n".format(letters_total[i][j[0]], dates_total[i][j[0]], values_total[i][j[0]]))
+            sys.stdout.write("{} {} {}\n".format(letters_total[i][j[0]], dates_total[i][j[0]], values_total[i][j[0]]))
