@@ -22,4 +22,4 @@ if __name__ == '__main__':
     ordenado=sorted(enumerate(values), key=lambda x: x[1])
 
     for i in ordenado[:6]:
-        sys.stdout.write("{}\t{}\t{}\n".format(letters[i[0]], dates[i[0]], values[i[0]]))
+        sys.stdout.write("{}   {}   {}\n".format(letters[i[0]], dates[i[0]], values[i[0]]))
