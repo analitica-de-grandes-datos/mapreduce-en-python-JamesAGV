@@ -34,7 +34,7 @@ if __name__ == '__main__':
                 # con la misma clave se imprime el resultado en
                 # el flujo de salida
                 #
-                sys.stdout.write("{} {}\n".format(curkey, ','.join(str(i) for i in sorted(lista))))
+                sys.stdout.write("{}  {}\n".format(curkey, ','.join(str(i) for i in sorted(lista))))
                 
                 lista=[]
 
